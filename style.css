@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900,900i&display=swap');
+body, html{
+  background-color: #fa9a84;
+  margin:0px;
+}
+
+*{
+  font-family:'Roboto';
+}
+
+.mousse{
+  position: relative;
+  letter-spacing: 20px;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 100px;
+}
+
+.roastedandground{
+  position: relative;
+  color:#6bc5cf;
+  font-size: 80px;
+  font-weight:700;
+}
+
+.RM{
+  position: relative;
+  font-weight: 900;
+  font-style: italic;
+  color:#fff;
+  text-decoration:underline;
+  font-size: 400px;
+}
+
+.two{
+  position: relative;
+  font-weight: 500;
+  font-size: 80px;
+  color: #fa9a84;
+}
+
+span{
+  display: block;
+  border-color: #f7cdc3;
+  border-radius:50px;
+  background-color: #f7cdc3;
+  text-align: center;
+}
+
+#circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.seeds{
+  position:relative;
+  font-size: 70px;
+  font-weight:900;
+}
+
+.cacao{
+  position: relative;
+  color:#fff;
+  font-size: 300px;
+  font-weight: 300;
+  letter-spacing: -10px;
+}
+
+.BC{
+  position:relative;
+  color: #fff;
+  font-size:250px;
+  font-weight:900;
+}

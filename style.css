@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900,900i&display=swap');
 body, html{
-  background-color: #fa9a84;
+  background-color:#fa9a84;
   margin:0px;
 }
 
@@ -10,26 +10,26 @@ body, html{
 .halfcircle{
   display:flex;
   justify-content: flex-start;
-  z-index:-1;
+  z-index:-3;
 }
 .mousse{
   position: relative;
   letter-spacing: 20px;
   font-style: italic;
   font-weight: 900;
-  font-size: 150px;
-  margin-top: -360px;
+  font-size: 130px;
+  margin-top: -1530px;
   margin-left: 50px;
 }
 
 .roastedandground{
   position: relative;
-  color:#6bc5cf;
-  font-size: 85px;
-  font-weight:700;
+  color: #6bc5cf;
+  font-size: 100px;
+  font-weight: 700;
   line-height: 10px;
-  margin-left:50px;
-  margin-top:-130px;
+  margin-left: 50px;
+  margin-top: -130px;
 }
 
 .RM{
@@ -37,8 +37,10 @@ body, html{
   font-weight: 900;
   font-style: italic;
   color:#fff;
-  text-decoration:underline;
+  text-decoration: underline;
   font-size: 400px;
+  margin-top: -400px;
+  margin-left: -110px;
 }
 
 .two{
@@ -46,6 +48,8 @@ body, html{
   font-weight: 500;
   font-size: 80px;
   color: #fa9a84;
+  z-index: -1;
+  /*margin-left: 20px;*/
 }
 
 span{
@@ -63,9 +67,12 @@ span{
 }
 
 .seeds{
+  display:flex;
   position:relative;
-  font-size: 70px;
+  font-size: 100px;
   font-weight:900;
+  justify-content: center;
+  margin-top: -900px;
 }
 
 .cacao{
@@ -75,6 +82,9 @@ span{
   font-weight: 300;
   letter-spacing: -10px;
   transform:rotate(90deg);
+  z-index: 0;
+  margin-top:400px;
+  margin-right:-400px;
 }
 
 .BC{
@@ -83,16 +93,23 @@ span{
   font-size:240px;
   font-weight:900;
   transform:rotate(90deg);
+  margin-top:-330px;
+  margin-right:-1000px;
 }
 
 .triangle{
   display: flex;
   justify-content: flex-end;
-  z-index: -1;
+  z-index: -3;
+  margin-top: -200px;
 }
 
 .arrow{
   display: flex;
   justify-content: center;
   margin-top: -100px;
+}
+
+.chocolate{
+  font-size: 100px;
 }

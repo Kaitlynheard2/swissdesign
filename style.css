@@ -24,7 +24,7 @@ body, html{
 
 .roastedandground{
   position: relative;
-  color: #6bc5cf;
+  color: rgb(150, 204, 211);
   font-size: 100px;
   font-weight: 700;
   line-height: 10px;
@@ -43,7 +43,7 @@ body, html{
   margin-left: -110px;
 }
 
-.two{
+.twospan{
   position: relative;
   font-weight: 500;
   font-size: 80px;
@@ -52,8 +52,13 @@ body, html{
   /*margin-left: 20px;*/
 }
 
+.two{
+  margin-top:
+  margin-left:
+}
+
 span{
-  display: block;
+  display:block;
   border-color: #f7cdc3;
   border-radius:50px;
   background-color: #f7cdc3;

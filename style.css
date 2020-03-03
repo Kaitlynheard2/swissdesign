@@ -100,7 +100,6 @@ span{
 .triangle{
   display: flex;
   justify-content: flex-end;
-  z-index: -3;
   margin-top: -200px;
 }
 
@@ -112,4 +111,8 @@ span{
 
 .chocolate{
   font-size: 100px;
+  font-style: italic;
+  color: rgb(250,213,137);
+  margin-left: 700px;
+  margin-top: -200px;
 }

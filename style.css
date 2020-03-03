@@ -1,17 +1,24 @@
+/*imports roboto font*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900,900i&display=swap');
+/*makes the background color and sets margins of body*/
 body, html{
   background-color:#fa9a84;
   margin:0px;
 }
 
+/*sets font family of entire page*/
 *{
   font-family:'Roboto';
 }
+
+/*sets position of yellow half cirlce img at the top of the page*/
 .halfcircle{
   display:flex;
   justify-content: flex-start;
   z-index:-3;
 }
+
+/*sets the placement of the word mouse. It also sets the font size and letter spacing*/
 .mousse{
   position: relative;
   letter-spacing: 20px;
@@ -22,6 +29,7 @@ body, html{
   margin-left: 50px;
 }
 
+/*sets the position and font size of the blue roasted and ground words.*/
 .roastedandground{
   position: relative;
   color: rgb(150, 204, 211);
@@ -32,6 +40,7 @@ body, html{
   margin-top: -130px;
 }
 
+/*sets the placement and color of the rm word. Also the underline for the rm. */
 .RM{
   position: relative;
   font-weight: 900;
@@ -43,8 +52,9 @@ body, html{
   margin-left: -110px;
 }
 
+/*class for the 2 in the span element*/
 .twospan{
-  position: relative;
+  position: ralative;
   font-weight: 500;
   font-size: 80px;
   color: #fa9a84;
@@ -52,11 +62,7 @@ body, html{
   /*margin-left: 20px;*/
 }
 
-.two{
-  margin-top:
-  margin-left:
-}
-
+/*sets the display of the span element. The span element helps make the circle*/
 span{
   display:block;
   border-color: #f7cdc3;
@@ -69,6 +75,9 @@ span{
   border-radius: 50%;
   width: 100px;
   height: 100px;
+  margin-top: -800px;
+  margin-left: 550px;
+
 }
 
 .seeds{
@@ -77,7 +86,8 @@ span{
   font-size: 100px;
   font-weight:900;
   justify-content: center;
-  margin-top: -900px;
+  margin-top: -100px;
+  margin-bottom:0px;
 }
 
 .cacao{
@@ -103,9 +113,8 @@ span{
 }
 
 .triangle{
-  display: flex;
-  justify-content: flex-end;
-  margin-top: -200px;
+  margin-left: 400px;
+  margin-top:0px;
 }
 
 .arrow{
@@ -119,5 +128,5 @@ span{
   font-style: italic;
   color: rgb(250,213,137);
   margin-left: 700px;
-  margin-top: -200px;
+  margin-top: -300px;
 }

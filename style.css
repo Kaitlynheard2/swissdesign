@@ -71,6 +71,8 @@ span{
   text-align: center;
 }
 
+/* id for the circle around the 2 */
+/* https://codepen.io/betty66/pen/wedrxd */
 #circle {
   border-radius: 50%;
   width: 100px;
@@ -80,6 +82,7 @@ span{
 
 }
 
+/* class for seeds */
 .seeds{
   display:flex;
   position:relative;
@@ -90,6 +93,7 @@ span{
   margin-bottom:0px;
 }
 
+/* class for cacao */
 .cacao{
   position: relative;
   color:#fff;
@@ -102,6 +106,7 @@ span{
   margin-right:-400px;
 }
 
+/* class for 1900 BC */
 .BC{
   position:relative;
   color: #fff;
@@ -112,17 +117,20 @@ span{
   margin-right:-1000px;
 }
 
+/* class for the triangle */
 .triangle{
   margin-left: 400px;
   margin-top:0px;
 }
 
+/* class for the arrow image */
 .arrow{
   display: flex;
   justify-content: center;
   margin-top: -100px;
 }
 
+/* class for the chocolate */
 .chocolate{
   font-size: 100px;
   font-style: italic;
